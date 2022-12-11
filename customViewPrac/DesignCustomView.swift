@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-@IBDesignable
+//@IBDesignable
 class DesignCustomView: UIView {
     @IBInspectable
     var cornerRadius: CGFloat = 0 {
