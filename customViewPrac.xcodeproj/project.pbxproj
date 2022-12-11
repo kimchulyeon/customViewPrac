@@ -13,6 +13,8 @@
 		374CF9E72945DFB6005EC8AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374CF9E52945DFB6005EC8AE /* Main.storyboard */; };
 		374CF9E92945DFB7005EC8AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374CF9E82945DFB7005EC8AE /* Assets.xcassets */; };
 		374CF9EC2945DFB7005EC8AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374CF9EA2945DFB7005EC8AE /* LaunchScreen.storyboard */; };
+		374CF9F62945E053005EC8AE /* CALayout+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CF9F52945E053005EC8AE /* CALayout+Ext.swift */; };
+		374CF9FA2945E745005EC8AE /* DesignCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CF9F92945E745005EC8AE /* DesignCustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		374CF9E82945DFB7005EC8AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		374CF9EB2945DFB7005EC8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		374CF9ED2945DFB7005EC8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		374CF9F52945E053005EC8AE /* CALayout+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayout+Ext.swift"; sourceTree = "<group>"; };
+		374CF9F92945E745005EC8AE /* DesignCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				374CF9DF2945DFB6005EC8AE /* AppDelegate.swift */,
 				374CF9E12945DFB6005EC8AE /* SceneDelegate.swift */,
 				374CF9E32945DFB6005EC8AE /* ViewController.swift */,
+				374CF9F92945E745005EC8AE /* DesignCustomView.swift */,
+				374CF9F52945E053005EC8AE /* CALayout+Ext.swift */,
 				374CF9E52945DFB6005EC8AE /* Main.storyboard */,
 				374CF9E82945DFB7005EC8AE /* Assets.xcassets */,
 				374CF9EA2945DFB7005EC8AE /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				374CF9E42945DFB6005EC8AE /* ViewController.swift in Sources */,
 				374CF9E02945DFB6005EC8AE /* AppDelegate.swift in Sources */,
+				374CF9FA2945E745005EC8AE /* DesignCustomView.swift in Sources */,
 				374CF9E22945DFB6005EC8AE /* SceneDelegate.swift in Sources */,
+				374CF9F62945E053005EC8AE /* CALayout+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

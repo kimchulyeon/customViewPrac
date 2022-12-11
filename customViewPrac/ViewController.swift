@@ -1,19 +1,15 @@
-//
-//  ViewController.swift
-//  customViewPrac
-//
-//  Created by chulyeon kim on 2022/12/11.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    // 📌 UIView를 상속하는 CustomView를 상속
+     @IBOutlet weak var yellowView: DesignCustomView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+            
+//        yellowView.layer.borderWidth = 10
+//        yellowView.layer.cornerRadius = 10
     }
-
-
 }
 
